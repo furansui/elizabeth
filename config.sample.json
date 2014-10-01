@@ -5,9 +5,9 @@
     "redirectUri": "http://localhost:3000/auth"
   },
   "defaults": {
-    "output": "PlaintextExport",
+    "output": "JsonExport",
     "outputFile": "%date%_plaintext.txt",
-    "days": "7"
+    "days": "1"
   },
   "system": {
     "port": 3000
